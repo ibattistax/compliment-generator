@@ -1,0 +1,15 @@
+.container {
+  background-color: rgb(128, 128, 128, 0.1);
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
