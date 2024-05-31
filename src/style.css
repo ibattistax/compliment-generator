@@ -1,19 +1,21 @@
 body {
-  background-color: rgb(187, 192, 185, 0.2);
+  background-color: rgb(235, 235, 232, 0.2);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 30px;
-  colour: #1c332d;
+  color: #31352e;
 }
 
-.container {
-  display: block;
-  background-color: rgb(187, 196, 191, 0.5);
-  padding: 13px;
-  border-radius: 5px;
+form {
+  padding: 30px;
+  background-color: rgb(209, 226, 196);
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
   max-width: 500px;
   margin: 0 auto;
 }
@@ -31,20 +33,21 @@ h1 {
   padding: 13px 26px;
   font-size: 14px;
   border: none;
-  background-color: #356f51;
+  background-color: #778a35;
   color: white;
   border-radius: 50px;
 }
 
 .compliment {
-  display: block;
-  background-color: rgb(187, 196, 191, 0.5);
+  display: flex;
+  background-color: rgb(209, 226, 196);
   padding: 13px;
   border-radius: 5px;
-  max-width: 500px;
+  max-width: 525px;
   margin: 0 auto;
   margin-top: 30px;
-  border-left: 4px solid #356f51;
+  border-left: 6px solid #778a35;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
 a {
