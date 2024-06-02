@@ -9,17 +9,17 @@ h1 {
   color: #31352e;
 }
 
-form {
-  padding: 30px;
+.container {
+  padding: 20px;
   background-color: rgb(209, 226, 196);
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
-  display: flex;
-  margin-bottom: 30px;
   max-width: 500px;
   margin: 0 auto;
 }
-
+.example {
+  margin-top: 5px;
+}
 .prompt {
   padding: 13px;
   font-size: 14px;
@@ -38,12 +38,19 @@ form {
   border-radius: 50px;
 }
 
+.example {
+  font-size: 10px;
+  opacity: 0.6;
+  display: block;
+}
+.hidden {
+  display: none;
+}
 .compliment {
-  display: flex;
   background-color: rgb(209, 226, 196);
   padding: 13px;
   border-radius: 5px;
-  max-width: 525px;
+  max-width: 510px;
   margin: 0 auto;
   margin-top: 30px;
   border-left: 6px solid #778a35;
@@ -53,6 +60,7 @@ form {
 a {
   text-decoration: none;
   color: black;
+  font-style: italic;
 }
 
 a:hover {
@@ -62,4 +70,18 @@ a:hover {
 footer {
   text-align: center;
   margin-top: 30px;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
